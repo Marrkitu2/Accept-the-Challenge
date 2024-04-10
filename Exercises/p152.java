@@ -12,7 +12,7 @@ public class AceptaElReto152 {
             n1 = sc.nextInt();
         }
     }
-    public static int calcularModa(int n1) { //Calcula cuantas veces se muestra cada numero
+    public static int calcularModa(int n1) { 
         int[] a = new int[10];
         int i = 0;
         for (i = 0; i < n1; i++){
@@ -24,7 +24,7 @@ public class AceptaElReto152 {
         return i;
     }
 
-    public static void mostrarArray(int[] a) { //Muestra cuantas veces se repite cada numero
+    public static void mostrarArray(int[] a) { 
         for (int i = 0; i < a.length ; i++){
             System.out.print(a[i] + ",");
 
@@ -32,7 +32,7 @@ public class AceptaElReto152 {
         System.out.println();
     }
 
-    public static void numeroMayor(int[] a) { // Busca la posicion de el numero mas grande
+    public static void numeroMayor(int[] a) { 
         int max = a[0];
         int posicion = 0;
         for (int i = 1; i < a.length; i++) {
