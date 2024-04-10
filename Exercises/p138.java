@@ -18,11 +18,10 @@ public class AceptaElReto138 {
         return r;
 
     }
-    static int zeroDretaV2(long n) { // dentro de la funcion definimos la variable n como long
-        int zeros = 0; //la variable zeros, que es un int(numeros) la definimos como 0
-
-        while (n % 10 == 0) { // mientras que n (el numero resultante de la funcion de arriba entre 10 sea igual a 0, repetiremos el bucle
-            ++zeros; //sumaremos un numero mas a 0
+    static int zeroDretaV2(long n) { 
+        int zeros = 0; 
+        while (n % 10 == 0) {
+            ++zeros;
             n/= 10;
         }
         return zeros;
